@@ -1,0 +1,7 @@
+**Execute DB.sql
+
+Use scripts to solve the following:
+
+1) Query - Find the student ID, name and age of all students who are not enrolled in any course.
+
+2) PL/SQL block - Print the average age of all Level-3 students who are enrolled in a course taught by 'Shariful Islam'
