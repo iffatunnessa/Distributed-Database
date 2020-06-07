@@ -1,0 +1,3 @@
+select distinct snum, sname from student where snum not in (select enrolled.snum from enrolled);
+
+select distinct sname from student where snum in (select enrolled.snum from enrolled group by snum having count(*) >= all(select count(*) from enrolled group by enrolled.snum));
