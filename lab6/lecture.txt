@@ -1,0 +1,7 @@
+declare
+	emp employee%rowtype
+
+begin
+	mypackage.c1 fetch into emp
+	emo.name etc evabe newa jabe
+	abar mypackag.c1id/name
