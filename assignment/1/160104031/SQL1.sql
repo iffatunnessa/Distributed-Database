@@ -1,0 +1,1 @@
+SELECT snum,sname FROM Student Intersect (SELECT snum, sname FROM Student WHERE snum IN(SELECT snum FROM Enrolled where Student.snum = enrolled.snum));
